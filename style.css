@@ -25,6 +25,7 @@
 html,
 body {
   height: 100%;
+  line-height: 1.6;
 }
 img,
 picture,
@@ -188,8 +189,111 @@ table {
 
 /* ----- end of header style -----*/
 
-.test {
-  width: 1000px;
-  height: 3000px;
-  background-color: aqua;
+.main {
+  width: 100%;
+  padding-top: 60px;
 }
+
+/* ----- start of banner style -----*/
+
+.banner__container {
+  margin: 1rem 0 7.5rem;
+  width: 100%;
+
+  padding: 0 2rem;
+}
+
+.banner__large-banner-container {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.banner__large-banner {
+  width: 20%;
+  padding: 0 1rem 3.375rem 1rem;
+}
+
+.large-banner__info {
+  text-align: center;
+}
+
+.large-banner__category {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.large-banner__title {
+  word-break: keep-all;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.large-banner__more {
+  color: #999;
+  border: solid 1px #ddd;
+  font-size: 0.8125rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  line-height: 1.4;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eee;
+}
+
+.banner__small-banner-container {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.banner__small-banner {
+  display: flex;
+  margin-top: 2rem;
+  width: 20%;
+  padding: 0 1rem 3.375rem 1rem;
+}
+
+.small-banner__img {
+  width: 50%;
+}
+
+.small-banner__info-wrapper {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.small-banner__info {
+  width: 100%;
+  text-align: center;
+}
+
+.small-banner__category {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.small-banner__title {
+  word-break: keep-all;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.small-banner__more {
+  color: #999;
+  border: solid 1px #ddd;
+  font-size: 0.8125rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  line-height: 1.4;
+}
+
+/* ----- end of banner style -----*/
