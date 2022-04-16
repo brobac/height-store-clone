@@ -299,6 +299,9 @@ table {
 /* ----- end of banner style -----*/
 
 /* ----- start of spotlight style -----*/
+.spotlight {
+  margin-bottom: 7.5rem;
+}
 .spotlight__title {
   padding: 0 2rem;
   margin: 1.3rem 0;
@@ -339,3 +342,66 @@ table {
   margin-left: 4rem;
 }
 /* ----- end of spotlight style -----*/
+
+/* ----- start of curation style -----*/
+
+.curation {
+  padding: 0 2rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+.curation__title {
+  /* padding: 0 2rem; */
+  margin: 1.3rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.curation__item-container {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.curation__item {
+  width: 25%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.curation-item__info {
+  margin: 1.5rem 2.5rem;
+}
+.curation-item__title {
+  font-weight: 500;
+  margin-bottom: 0.05rem;
+}
+
+.curation-item__desc {
+  font-size: 0.865rem;
+  margin-bottom: 1.5rem;
+}
+
+.curation__product {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.product__thumbnail {
+  flex: 0 0 4rem;
+}
+
+.product__info {
+  flex: 1;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.product__name {
+  margin-bottom: 0.125rem;
+}
+.product__brand {
+  font-size: 0.875rem;
+  color: #666666;
+}
+/* ----- end of curation style -----*/
