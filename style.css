@@ -348,10 +348,9 @@ table {
 .curation {
   padding: 0 2rem;
   width: 100%;
-  margin-bottom: 0.75rem;
+  margin-bottom: 7.5rem;
 }
 .curation__title {
-  /* padding: 0 2rem; */
   margin: 1.3rem 0;
   font-size: 1.5rem;
   font-weight: 700;
@@ -405,3 +404,71 @@ table {
   color: #666666;
 }
 /* ----- end of curation style -----*/
+
+/* ----- start of editorial style -----*/
+
+.editorial {
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.editorial__title-container {
+  position: relative;
+}
+
+.editorial__title {
+  margin: 1.3rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.editorial__more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  border: solid 1px #eee;
+  border-radius: 0.25rem;
+  color: #999;
+  padding: 0.25rem 0.75rem;
+  line-height: 1.4;
+}
+.editorial__item-container {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.editorial__item {
+  width: 20%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.editorial-item__img {
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.editorial-item__title {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.editorial-item__desc {
+  margin-bottom: 1rem;
+  padding: 0 2.5rem;
+  font-size: 0.875rem;
+  color: #666;
+  word-break: keep-all;
+}
+
+.editorial-item__more {
+  color: #999;
+  padding: 0.25rem 0.75rem;
+  border: solid 1px #ddd;
+  border-radius: 0.25rem;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+/* ----- end of editorial style -----*/
