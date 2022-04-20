@@ -320,9 +320,15 @@ main {
   display: flex;
 }
 
-.spotlight__item {
+.spotlight-item {
   position: relative;
   width: 25%;
+}
+
+.spotlight-item__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .spotlight-item__info {
@@ -836,12 +842,12 @@ main {
     display: none;
   }
 
-  .spotlight__item {
+  .spotlight-item {
     position: relative;
     width: 33.33%;
   }
 
-  .spotlight__item:last-child {
+  .spotlight-item:last-child {
     display: none;
   }
 
